@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CulturalesAlcaldia", "CulturalesAlcaldia.csproj", "{3DF3EACE-037E-4D9E-BDA9-0DCD857689A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DF3EACE-037E-4D9E-BDA9-0DCD857689A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DF3EACE-037E-4D9E-BDA9-0DCD857689A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DF3EACE-037E-4D9E-BDA9-0DCD857689A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DF3EACE-037E-4D9E-BDA9-0DCD857689A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1593BF47-0939-4345-B1DF-B5BA6437BFB0}
+	EndGlobalSection
+EndGlobal
