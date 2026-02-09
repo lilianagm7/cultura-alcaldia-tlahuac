@@ -1,7 +1,21 @@
+using Microsoft.EntityFrameworkCore;
+using CulturalesAlcaldia.Data; 
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+//Servicios agregados
+builder.Services.AddControllersWithViews();
+
+//servicio de la base de datos
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection")
+    )
+);
+
 
 var app = builder.Build();
 
